@@ -16,7 +16,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.x' # Use the version you're targeting
+          dotnet-version: '8.0.x' # Specify the correct version here (e.g., 8.0.x)
 
       - name: Publish the app
         run: dotnet publish -c Release -o release_output
